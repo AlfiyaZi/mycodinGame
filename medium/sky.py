@@ -25,6 +25,7 @@ class Graph(object):
 
 
 def dijkstra(graph, initial):
+    """ dijkstra algorithm"""
     visited = {initial: 0}
     path = {}
 
